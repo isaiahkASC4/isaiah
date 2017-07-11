@@ -1,0 +1,1 @@
+myPokemonRoster=("Gengar","PrimeApe","MewTwo","IvySaur")
