@@ -16,13 +16,17 @@ var ySpeed  ;
 function draw(){
     background(200); 
     ellipse(x,y,30,30);
-    if (x>=500){
+  else if (x>=15){
         xSpeed = -1;
     }
-        if (y>=500){
+        if (y>=15){
             ySpeed = -1; 
 
+        }else if (y=15){
+            ySpeed =1; 
         }
+        
+    
 x= x+xSpeed; //x+=xSpeed;
 
 y= y+ySpeed; //y+ySpeed; 
